@@ -1,0 +1,84 @@
+html {
+  h1 {
+    font-family: "Bodoni Moda", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  h2 {
+    font-family: "Bodoni Moda", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .hero {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .hero_div {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/4;
+    grid-column: 1;
+  }
+
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2; /* Sørger for, at indhold vises over videoen */
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 1;
+    place-self: center;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .hero-text {
+    /* background: #8c0e03; */
+    color: black;
+    text-transform: uppercase;
+    font-size: 9vw;
+    text-decoration: none;
+  }
+
+  .hero-text:hover {
+    color: white;
+    cursor: default;
+  }
+
+  .navn {
+    background-color: var(--primary);
+    padding: 4rem;
+  }
+
+  .navn2 {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 4.5vw;
+    margin: 0;
+    color: var(--tetiary);
+  }
+}

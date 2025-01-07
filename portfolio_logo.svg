@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.69 66.67">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 24px;
+      }
+
+      .cls-2 {
+        font-size: 36px;
+      }
+
+      .cls-3 {
+        font-family: OldStandardTT-Bold, 'Old Standard TT';
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(0 30.82)"><tspan class="cls-2"><tspan x="0" y="0">KEA </tspan><tspan class="cls-4" x="89.78" y="0">P</tspan><tspan x="113.18" y="0">ortfolio</tspan></tspan><tspan class="cls-1"><tspan x="31.01" y="28.8">Første semester</tspan></tspan></text>
+</svg>
